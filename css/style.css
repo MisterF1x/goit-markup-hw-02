@@ -1,0 +1,128 @@
+:root {
+  --primary-color: #2196f3;
+  --secondary-color: #212121;
+  --text-color: #757575;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ------navigation style--------- */
+.navigation,
+.contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.menu .link.current {
+  color: var(--primary-color);
+}
+.menu .link {
+  color: var(--secondary-color);
+}
+.contacts .link {
+  color: var(--text-color);
+}
+/* ---------hero style----------- */
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.btn-hero {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+/* -----------Logo style---------- */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.logo-black {
+  color: #000;
+}
+.logo-white {
+  color: #fff;
+}
+/* ---------our features style----------- */
+.feature-title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-descr {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ----------our team style------- */
+.team {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 500;
+}
+.position {
+  font-weight: 400;
+  color: var(--text-color);
+}
+/* ---------title style------- */
+.works-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* ---------Footer style--------- */
+.our-address {
+  font-style: inherit;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.our-address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.our-address .adress-street {
+  color: #fff;
+}
