@@ -4,6 +4,7 @@
   --text-color: #757575;
   --bg-color-1: #2f303a;
   --bg-color-2: #f5f4fa;
+  --color-btn: #188ce8;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -94,10 +95,11 @@ body {
 }
 .btn-hero:hover,
 .btn-hero:focus {
-  background: #188ce8;
+  background: var(--color-btn);
 }
 /* ---------our features style----------- */
 .feature-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -107,7 +109,7 @@ body {
   color: var(--text-color);
 }
 /* ----------our team style------- */
-.team {
+.team-name {
   font-size: 16px;
   line-height: 1.19;
   background-color: var(--bg-color-2);
@@ -136,7 +138,7 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  background: #f5f4fa;
+  background: var(--bg-color-2);
   border-radius: 4px;
   border: none;
   cursor: pointer;
